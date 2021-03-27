@@ -1,0 +1,20 @@
+directories:
+  output: DrBlack-Services-Packed
+  buildResources: build
+appId: com.han233.drbserv
+electronVersion: 12.0.0
+copyright: Copyrights © 2021 HanHan233 All Rights Reserved.
+productName: DrBlack Services
+dmg:
+  background: assets/image/background.jpg
+  window:
+    x: 100
+    'y': 100
+    width: 800
+    height: 600
+win:
+  icon: assets/icon.ico
+  artifactName: ${productName}_${version}_Setup.${ext}
+publish:
+  - provider: generic
+    url: http://static-api.han-han.xyz/dbs/updater/
